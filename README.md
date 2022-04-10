@@ -1,7 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-14/3/2022
+14/3/2022 (Beginning of project)
 
 ### Project Title
 Bikeshare.py
@@ -17,4 +17,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-This is data originally given by Udacity, bikeshare.py code is personally written
+This is data originally given by Udacity, bikeshare.py code is personally written.
