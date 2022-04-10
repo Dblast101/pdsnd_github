@@ -73,7 +73,7 @@ def load_data(city, month, day):
 
     df['gen'] = df['Gender']
 
-    df['by'] = df['Birth Year']
+    df['bir_yea'] = df['Birth Year']
     """
     ^ Above is a creation of many variables for later use, these connect to column in the .csv.
     Below is processing the month and day processes for the df.
@@ -200,9 +200,9 @@ def user_stats(df):
     print('\nThe total amount of each gender type:\nMale Count:', male_count, '\nFemale Counts:', female_count, '\nNone provided:', null_count)
 
     # TO DO: Display earliest, most recent, and most common year of birth
-    early = df['by'].min().astype(int)
-    most_rec = df['by'].max().astype(int)
-    com_year = df['by'].iloc[0].max().astype(int)
+    early = df['bir_yea'].min().astype(int)
+    most_rec = df['bir_yea'].max().astype(int)
+    com_year = df['bir_yea'].iloc[0].max().astype(int)
 
     print('\nThe Earliest, Most Recent, and Most Common Year of Birth are: \nEarlist:', early, '\nMost Recent:', most_rec, '\nCommon Year of Birth:', com_year)
 
