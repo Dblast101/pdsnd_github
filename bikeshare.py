@@ -42,7 +42,7 @@ def get_filters():
             return city_a[city], month_a[month], day_a[day]
 
         except ValueError:
-            print('\nYour previous answer\s is not one of the listed options or has been type incorrectly, Please try again.\n')
+            print('\nYour previous answer\s is not one of the listed options or has been type incorrectly, Check over your previous answer and please try again.\n')
 
 
 def load_data(city, month, day):
